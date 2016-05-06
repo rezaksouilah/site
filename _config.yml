@@ -14,6 +14,9 @@ baseurl:             ""
 sass:
   sass_dir:          _sass
   style:            :compressed
+  
+# Use the following plug-ins
+gems: [jekyll-sitemap, jekyll-paginate]
 
 # About/contact
 author:
