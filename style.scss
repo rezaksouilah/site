@@ -541,6 +541,12 @@ button {
     text-align: center;
     color: rgb(34, 125, 188);
     text-decoration: none;
+    
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+        background: rgb(34, 125, 188);
+    }
 }
 
 .home-link--plot__slides {
