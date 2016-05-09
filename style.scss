@@ -509,7 +509,7 @@ button {
 }
 
 .home-link {
-    background-color: #e9e9e9;
+    background-color: #F6F6F6;
     display: block;
     margin-bottom: 40px;
     padding: 40px 40px 0 40px;
@@ -544,12 +544,9 @@ button {
 }
 
 .home-link--plot__slides {
-    width: 40%;
+    width: 60%;
     display: inline-block;
     vertical-align: bottom;
-    @media only screen and (max-width : 610px) {
-        width: 60%;
-    }
 }
 
 .home-link--hailo {
