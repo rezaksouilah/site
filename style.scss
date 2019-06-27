@@ -553,6 +553,9 @@ button {
     width: 60%;
     display: inline-block;
     vertical-align: bottom;
+    &.full-width {
+	    width:100%;
+    }
 }
 
 .home-link--hailo {
@@ -583,17 +586,6 @@ button {
         padding-left: 40px;
         padding-right: 40px;
     }
-}
-
-.home-link--gmc {
-	color: #22a3c7;
-	&:hover {
-		color: #fff;
-		background-color: #22a3c7;
-	}
-	.home-link--plot__slides {
-		width:90%;
-	}
 }
 
 .home-link--lmn__overlay {
