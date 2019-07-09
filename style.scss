@@ -1066,13 +1066,12 @@ hr {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    background-size: cover;
     &.plot-wrap {
         background-image: url("../images/portfolio/plot-1.jpg");
-        background-size: cover;
     }
     &.hailo-wrap {
         background-image: url("../images/portfolio/hailo-1.jpg");
-        background-size: cover;
     }
 }
 
@@ -1164,7 +1163,6 @@ hr {
 
 .project-sep {
     height: 10px;
-    margin-bottom: 40px;
     background-color: #F6F6F6;
     &.plot {
        
